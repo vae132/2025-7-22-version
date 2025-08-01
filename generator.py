@@ -223,7 +223,7 @@ def generate_html(articles, result_file="index.html"):
       background-color: var(--btn-bg); /* 按钮背景色 */
       color: #fff;                    /* 按钮文字色 */
       padding: 12px 20px;             /* 增加内边距，调整尺寸 */
-      font-size: 18px;                /* �大字体 */
+      font-size: 18px;                /*  大字体 */
       border: 2px solid #fff;
       margin-left: 10px;
       border-radius: 12px;
@@ -737,7 +737,7 @@ def generate_html(articles, result_file="index.html"):
     <div style="display:flex; align-items:center;">
       <!-- 使用彩色 emoji 表情替换图标 -->
       <h1>阳气诊所</h1>
-      <button class="btn btn-header" onclick="toggleDarkMode()">🌙切换暗黑模式</button>
+      <button class="btn btn-header" onclick="toggleDarkMode()">🌙夜间</button>
       <button class="btn btn-header" onclick="openSettings()">⚙️设置</button>
       <!-- 语言切换下拉框 -->
       <select id="languageSelect" onchange="changeLanguage()" class="btn btn-header">
